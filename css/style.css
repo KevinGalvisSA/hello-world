@@ -114,7 +114,7 @@ body{
 
 .container_text__h1 h1{
     color: orange;
-    font-size: 13vh;
+    font-size: 12vh;
     text-align: center;
 }
 
@@ -128,7 +128,7 @@ body{
 
 .container_text__p p{
     color: yellow;
-    font-size: 5vh;
+    font-size: 4vh;
     text-align: center;
 }
 
@@ -138,7 +138,7 @@ body{
 }
 
 .contenedor_descripcion{
-    background: lightcoral;
+    background: var(--color-cuarto);
     width: 100%;
     height: 50vh;
 }
@@ -167,12 +167,12 @@ body{
 }
 
 .descripcion_p p{
-    color: var(--color-primary);
+    color: yellow;
     font-size: 3.5vh;
 }
 
 .contenedor_destresas{
-    background: lightblue;
+    background: var(--color-cuarto);
     width: 100%;
     height: 50vh;
 }
@@ -201,6 +201,51 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
+    gap: 5vh;
+}
+
+.iconos{
+    width: 20vh;
+}
+
+#mis_gustos{
+    width: 100%;
+    height: 100vh;
+}
+
+.contenedor_gustos{
+    width: 100%;
+    height: 100%;
+}
+
+.gustos_h2{
+    background: var(--color-cuarto);
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gustos_h2 h2{
+    color: orange;
+    font-size: 7vh;
+}
+
+.gustos_ul{
+    background: var(--color-cuarto);
+    width: 100%;
+    height: 80%;
+}
+
+.gustos_imagenes{
+    width: 100%;
+    height: 100%;
+    padding: 4.5vh;
     text-align: center;
-    gap: 10px;
+}
+
+.gustos{
+    width: 40vh;
+    height: 30vh;
 }
