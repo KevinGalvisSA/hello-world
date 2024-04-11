@@ -240,12 +240,23 @@ body{
 
 .gustos_imagenes{
     width: 100%;
-    height: 100%;
+    height: 50%;
     padding: 4.5vh;
     text-align: center;
 }
 
-.gustos{
-    width: 40vh;
-    height: 30vh;
+.gustos_imagenes i{
+    color: var(--color-secondary);
+    font-size: 20vh;
+}
+
+.gustos_descripcion{
+    color: yellow;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 15vh;
+    font-size: 2vh;
+    text-transform: capitalize;
 }
